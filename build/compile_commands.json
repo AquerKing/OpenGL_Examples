@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/aquer/Masterpieces/Learning/opengl_learn/build",
+  "command": "/usr/bin/gcc -I/home/aquer/Masterpieces/Learning/opengl_learn/third-party/glad/include -g -o hello_opengl/CMakeFiles/hello_opengl.dir/__/third-party/glad/src/gl.c.o -c /home/aquer/Masterpieces/Learning/opengl_learn/third-party/glad/src/gl.c",
+  "file": "/home/aquer/Masterpieces/Learning/opengl_learn/third-party/glad/src/gl.c",
+  "output": "hello_opengl/CMakeFiles/hello_opengl.dir/__/third-party/glad/src/gl.c.o"
+},
+{
+  "directory": "/home/aquer/Masterpieces/Learning/opengl_learn/build",
+  "command": "/usr/bin/g++ -I/home/aquer/Masterpieces/Learning/opengl_learn/third-party/glad/include -g -o hello_opengl/CMakeFiles/hello_opengl.dir/main.cpp.o -c /home/aquer/Masterpieces/Learning/opengl_learn/hello_opengl/main.cpp",
+  "file": "/home/aquer/Masterpieces/Learning/opengl_learn/hello_opengl/main.cpp",
+  "output": "hello_opengl/CMakeFiles/hello_opengl.dir/main.cpp.o"
+}
+]

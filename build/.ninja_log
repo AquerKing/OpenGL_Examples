@@ -1,0 +1,6 @@
+# ninja log v6
+2	389	1780369343260947974	hello_opengl/CMakeFiles/hello_opengl.dir/main.cpp.o	ce18b6720b5a70a9
+389	477	1780369343644971147	hello_opengl/hello_opengl	eab068e620b566ae
+2	157	1780369124323806598	hello_opengl/CMakeFiles/hello_opengl.dir/__/third-party/glad/src/gl.c.o	a1b4e1e5d1b328ca
+3	435	1780905752205794951	hello_opengl/CMakeFiles/hello_opengl.dir/main.cpp.o	ce18b6720b5a70a9
+435	531	1780905752637778123	hello_opengl/hello_opengl	eab068e620b566ae
