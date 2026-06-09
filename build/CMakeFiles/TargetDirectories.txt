@@ -1,5 +1,0 @@
-/home/aquer/Masterpieces/Learning/opengl_learn/build/CMakeFiles/edit_cache.dir
-/home/aquer/Masterpieces/Learning/opengl_learn/build/CMakeFiles/rebuild_cache.dir
-/home/aquer/Masterpieces/Learning/opengl_learn/build/hello_opengl/CMakeFiles/hello_opengl.dir
-/home/aquer/Masterpieces/Learning/opengl_learn/build/hello_opengl/CMakeFiles/edit_cache.dir
-/home/aquer/Masterpieces/Learning/opengl_learn/build/hello_opengl/CMakeFiles/rebuild_cache.dir

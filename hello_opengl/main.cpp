@@ -4,6 +4,8 @@
 
 #include <iostream>
 
+#include "render.h"
+
 void Initialize();
 
 GLFWwindow *CreateGLFWWindow(int width, int height, const std::string &title);
@@ -23,11 +25,27 @@ int main() {
         return -1;
     }
 
+    // set up frame buffer size callback function
     glfwSetFramebufferSizeCallback(window, FrameBuffer_Size_Callback);
+
+    // set clear color
+    glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
+
+    // opengl objects
+    unsigned int VBO;
+    glGenBuffers(1, &VBO);
+
+    // set up buffer
+    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(float), vertices.data(), GL_STATIC_DRAW);
+
 
     while (!glfwWindowShouldClose(window)) {
         ProcessInput(window);
-        
+
+        // clear viewport with specified color
+        glClear(GL_COLOR_BUFFER_BIT);
+
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
