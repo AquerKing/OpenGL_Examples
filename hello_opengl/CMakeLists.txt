@@ -4,7 +4,9 @@ add_executable(
     hello_opengl
 
     ${LO_GLOBAL_SOURCE}
+
     main.cpp
+    render.cpp
 )
 
 target_include_directories(
